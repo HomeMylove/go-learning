@@ -1,20 +1,13 @@
 package main
 
-import "fmt"
-
-// 变量的使用
+import "fmt" // fmt 包中提供格式化，输出、输入的函数
 
 func main() {
-	// 方式一
-	var a int
-	a = 10
-	fmt.Println("a=", a)
+	// 演示转义字符的使用
+	// \t 水平制表符
+	fmt.Println("Hello\tWorld")
+	fmt.Println("HellotWorld")
 
-	// 方式二
-	var b = 3.14
-	fmt.Println("b=", b)
-
-	// 方式三
-	c := 2.73
-	fmt.Println("c=", c)
+	// \n 换行符
+	
 }
